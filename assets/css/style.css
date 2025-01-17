@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #441752;
+    color: #ffffff;
+    margin: 4rem 8rem 2rem 8rem;
+    border-radius: 1rem;
+}
+
+input {
+    margin: 1rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    border-radius: .6rem;
+    border: none;
+    width: 30%;
+}
+
+#monedas {
+    margin: 1rem;
+    font-size: 1rem;
+    padding: .3rem;
+    border: none;
+    border-radius: .6rem;
+}
+
+button {
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #8174A0;
+    color: #ffffff;
+}
+
+#conversion {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #EFB6C8;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#coin {
+    font-size: 1.2rem;
+}
+
+canvas {
+    max-height: 50%;
+    margin: 0 8rem;
+}
+
